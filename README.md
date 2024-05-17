@@ -29,17 +29,18 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Space Travelers' Hub (Group Project) <a name="about-project"></a>
+# 📖 GitHub User List <a name="about-project"></a>
 
 The GitHub User List is a website built with React.js. It lets you see a bunch of GitHub users with their avatars and links to their profiles. You can easily check out different GitHub users without leaving the website. It's simple and easy to use!
 
-## 🛠 Built With <a name="built-with">HTML5 , CSS3 and React.js</a>
+## 🛠 Built With <a name="built-with"></a>
 
-### 🛠 Tech Stack <a name="tech-stack"></a>
+### Tech Stack <a name="tech-stack"></a>
 
-    - HTML
-    - CSS
-    - React
+- React
+- HTML
+- JavaScript
+- CSS
 
 <!-- Features -->
 
