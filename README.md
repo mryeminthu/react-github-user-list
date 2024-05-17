@@ -37,10 +37,10 @@ The GitHub User List is a website built with React.js. It lets you see a bunch o
 
 ### Tech Stack <a name="tech-stack"></a>
 
-- React
 - HTML
-- JavaScript
 - CSS
+- JavaScript
+- React
 
 <!-- Features -->
 
