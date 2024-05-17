@@ -4,18 +4,26 @@ const Users = () => {
 
     const [users, setUsers] = useState([]);
 
-    useEffect(()=>{
+    useEffect(() => {
         const fetchUsers = async () => {
-           const getUsers = await fetch('https://api.github.com/users');
-            const data = getUsers.json();
-            setUsers(data);
+        const getUsers = await fetch('https://api.github.com/users');
+        const data = await getUsers.json();
+        setUsers(data);
         };
+
         fetchUsers();
-    },[])
+    }, []);
 
   return (
-    <div>
-      <h1>Hello</h1>
+    <div className='user-list'>
+      <h1>GitHub Users</h1>
+      <ul>
+        {users.map((user)=>(
+            <li key={user.id}>
+                <img src={user.avatar_url} alt={user.login} />
+            </li>
+        ))}
+      </ul>
     </div>
   )
 }
