@@ -21,6 +21,12 @@ const Users = () => {
         {users.map((user)=>(
             <li key={user.id}>
                 <img src={user.avatar_url} alt={user.login} />
+                <div>
+                    <p>{user.login}</p>
+                    <a href={user.html_url} target='blank'>
+                        <button>Visit GitHub</button>
+                    </a>
+                </div>
             </li>
         ))}
       </ul>
