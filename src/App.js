@@ -1,5 +1,5 @@
-import React from 'react'
-import Users from './Users'
+import React from 'react';
+import Users from './Users';
 
 const App = () => {
   return (
